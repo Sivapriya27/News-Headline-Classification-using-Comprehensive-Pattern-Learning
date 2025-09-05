@@ -1,0 +1,8 @@
+{
+  "timestamp": "2025-09-05T22-36-13Z",
+  "model": "LinearSVC + TFIDF",
+  "sklearn_pipeline": true,
+  "labels": "AG News: 0=World,1=Sports,2=Business,3=Sci/Tech",
+  "train_size": 102080,
+  "test_size": 25520
+}
