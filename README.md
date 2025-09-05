@@ -1,4 +1,4 @@
-# -News-Headline-Classification-using-Comprehensive-Pattern-Learning
+# News-Headline-Classification-using-Comprehensive-Pattern-Learning
 ML/NLP 
 This project is a **machine learning system** that classifies news headlines into four categories:
 - **World (0)**
@@ -124,7 +124,7 @@ News-Headline-Classification-using-Comprehensive-Pattern-Learning/
 -  README.md # Project documentation
 
 ---
-## 🌟 Future Work
+## 🌟 Future Work (Nice-to-haves)
 
 - Incorporate transformers (BERT, DistilBERT) for improved accuracy
 
@@ -136,6 +136,7 @@ News-Headline-Classification-using-Comprehensive-Pattern-Learning/
 
 ---
 
+
 ## 📖 References
 
 - AG News Dataset
@@ -146,24 +147,11 @@ News-Headline-Classification-using-Comprehensive-Pattern-Learning/
 
 ---
 
-## 🔍 Example Prediction
 
-```python
-import joblib, pandas as pd
-from src.preprocess import clean
 
-pipe = joblib.load("artifacts/models/model.joblib")
+## 🚦 Quickstart and 🔍 Example Prediction
 
-headline = "Apple releases new AI chip for faster iPhone performance"
-text = clean(headline)
-
-pred = pipe.predict([text])[0]
-print("Predicted class:", pred)   # Expected: Sci/Tech
-
----
-
-## 🚦 Quickstart
-
+```bash
 
 ## 1) Clone repo & create virtual env
 
@@ -190,6 +178,24 @@ python -m src.evaluate
 ## 5) Calibrate classifier
 
 python -m src.calibrate
+
+Example prediction:
+
+```python
+import joblib, pandas as pd
+from src.preprocess import clean
+
+pipe = joblib.load("artifacts/models/model.joblib")
+
+headline = "Apple releases new AI chip for faster iPhone performance"
+text = clean(headline)
+
+pred = pipe.predict([text])[0]
+print("Predicted class:", pred)   # Expected: Sci/Tech
+
+---
+
+
 
 
 
