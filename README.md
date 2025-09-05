@@ -194,10 +194,4 @@ pred = pipe.predict([text])[0]
 print("Predicted class:", pred)   # Expected: Sci/Tech
 
 ---
-
-
-
-
-
-
 ✨ Built with ❤️ and curiosity by Sivapriya Gopi ✨
