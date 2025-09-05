@@ -1,5 +1,4 @@
 # News-Headline-Classification-using-Comprehensive-Pattern-Learning
-ML/NLP 
 This project is a **machine learning system** that classifies news headlines into four categories:
 - **World (0)**
 - **Sports (1)**
