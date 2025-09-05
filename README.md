@@ -178,7 +178,7 @@ python -m src.evaluate
 
 python -m src.calibrate
 
-Example prediction:
+## 6) Example prediction:
 
 ```python
 import joblib, pandas as pd
