@@ -6,7 +6,7 @@ This project is a **machine learning system** that classifies news headlines int
 - **Sci/Tech (3)**
 
 It uses **NLP preprocessing, TF-IDF feature extraction, and a Support Vector Machine (SVM)** to achieve state-of-the-art accuracy on the AG News dataset.
-> “From noise to knowledge—this repo turns raw headlines into signal.”
+> “From noise to knowledge-this repo turns raw headlines into signal.”
 
 ---
 ## ⚙️ How It Works
